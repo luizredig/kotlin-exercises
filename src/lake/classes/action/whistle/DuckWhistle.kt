@@ -1,6 +1,6 @@
-package classes.action.whistle
+package lake.classes.action.whistle
 
-import interfaces.action.whistle.Whistle
+import lake.interfaces.action.whistle.Whistle
 
 class DuckWhistle : Whistle {
     override fun play() {

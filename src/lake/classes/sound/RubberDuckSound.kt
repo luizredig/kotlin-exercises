@@ -1,4 +1,4 @@
-package classes.sound
+package lake.classes.sound
 
 class RubberDuckSound : DuckSound() {
     override fun play() {

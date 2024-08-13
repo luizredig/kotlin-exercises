@@ -1,7 +1,7 @@
-package classes.entity.duck
+package lake.classes.entity.duck
 
-import classes.sound.DuckSound
-import interfaces.action.flight.Flight
+import lake.classes.sound.DuckSound
+import lake.interfaces.action.flight.Flight
 
 open class Duck(private var sound: DuckSound, private var flightMode: Flight) {
     fun makeQuack() {

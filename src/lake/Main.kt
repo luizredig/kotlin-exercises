@@ -1,13 +1,15 @@
-import classes.action.flight.BalloonFlight
-import classes.action.flight.NoFlight
-import classes.action.flight.WingedFlight
-import classes.action.whistle.BearWhistle
-import classes.action.whistle.DuckWhistle
-import classes.entity.duck.Duck
-import classes.entity.duck.RubberDuck
-import classes.entity.hunter.Hunter
-import classes.sound.DuckSound
-import classes.sound.RubberDuckSound
+package lake
+
+import lake.classes.action.flight.BalloonFlight
+import lake.classes.action.flight.NoFlight
+import lake.classes.action.flight.WingedFlight
+import lake.classes.action.whistle.BearWhistle
+import lake.classes.action.whistle.DuckWhistle
+import lake.classes.entity.duck.Duck
+import lake.classes.entity.duck.RubberDuck
+import lake.classes.entity.hunter.Hunter
+import lake.classes.sound.DuckSound
+import lake.classes.sound.RubberDuckSound
 
 fun main() {
     println("=== Duck ===")

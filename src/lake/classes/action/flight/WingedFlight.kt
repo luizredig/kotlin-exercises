@@ -1,6 +1,6 @@
-package classes.action.flight
+package lake.classes.action.flight
 
-import interfaces.action.flight.Flight
+import lake.interfaces.action.flight.Flight
 
 class WingedFlight : Flight {
     override fun fly() {

@@ -1,6 +1,6 @@
-package classes.sound
+package lake.classes.sound
 
-import interfaces.sound.AnimalSound
+import lake.interfaces.sound.AnimalSound
 
 open class DuckSound : AnimalSound {
     override fun play() {

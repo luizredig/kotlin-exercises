@@ -1,8 +1,8 @@
-package classes.entity.duck
+package lake.classes.entity.duck
 
-import classes.action.flight.NoFlight
-import classes.sound.RubberDuckSound
-import interfaces.action.flight.Flight
+import lake.classes.action.flight.NoFlight
+import lake.classes.sound.RubberDuckSound
+import lake.interfaces.action.flight.Flight
 
 class RubberDuck(sound: RubberDuckSound, flightMode: NoFlight) : Duck(sound = sound, flightMode = flightMode) {
     override fun changeFlightMode(flightMode: Flight) {

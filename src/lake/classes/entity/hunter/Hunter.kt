@@ -1,6 +1,6 @@
-package classes.entity.hunter
+package lake.classes.entity.hunter
 
-import interfaces.action.whistle.Whistle
+import lake.interfaces.action.whistle.Whistle
 
 class Hunter(private var whistle: Whistle) {
     fun useWhistle() {
