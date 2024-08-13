@@ -1,9 +1,9 @@
-package classes.entity
+package classes.entity.duck
 
 import classes.sound.DuckSound
 import interfaces.action.flight.Flight
 
-class Duck(private var sound: DuckSound, private var flightMode: Flight) {
+open class Duck(private var sound: DuckSound, private var flightMode: Flight) {
     fun makeQuack() {
         sound.play()
     }
@@ -12,7 +12,7 @@ class Duck(private var sound: DuckSound, private var flightMode: Flight) {
         flightMode.fly()
     }
 
-    fun changeFlightMode(flightMode: Flight) {
+    open fun changeFlightMode(flightMode: Flight) {
         this.flightMode = flightMode
 
         val flightModeName = this.flightMode::class.java.simpleName
